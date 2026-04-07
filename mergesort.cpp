@@ -68,3 +68,14 @@ void mergesort(int low,int high)
     }
 }
 
+void output()
+{
+    cout<<"\n===================================\n";
+    cout<<"Sorted elements: ";
+    cout<<"\n===================================\n";
+
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+}
+
